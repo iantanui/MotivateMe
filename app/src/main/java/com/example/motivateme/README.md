@@ -4,3 +4,6 @@ For development, the latest version of Android Studio is required. The latest ve
 For development, the latest version of Android Studio is required. The latest version can be downloaded from he[](https://developer.android.com/studio)re.
 
 MotivateMe uses Kotlin coding styles.
+
+
+

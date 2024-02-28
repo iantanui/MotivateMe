@@ -76,7 +76,7 @@ fun Home() {
     var isLoading by remember { mutableStateOf(true) }
 
     val scope = rememberCoroutineScope()
-    var checked by remember  { mutableStateOf(true) }
+    var checked by remember { mutableStateOf(true) }
 
     // Fetch word of the day with associated quote
     LaunchedEffect(true) {
@@ -205,9 +205,8 @@ data class ApiResponse(
 )
 
 object ApiConfig {
-    const val BASE_URL =
-        "https://quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com/quote?token=ipworld.info"
-    const val API_KEY = "1bd8a6a24emshc93b1f515e470fcp1d4ce5jsn57681ae2f5e8"
+    const val BASE_URL = "https://quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com/quote?token=ipworld.info"
+    const val API_KEY = ""
     const val HOST = "quotes-inspirational-quotes-motivational-quotes.p.rapidapi.com"
 }
 
